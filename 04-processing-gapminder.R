@@ -117,3 +117,12 @@ gap_long
 # this switches to a long format (though some
 # data (the year of observation) is still
 # stuck in the `obs_name`
+
+# recall (bonus material that didn't get shown in the workshop)
+# we can save our new data
+
+write.table(gap_long,
+            file="processed-data/gapminder-long.csv",
+            sep=",",
+            row.names=FALSE
+            )

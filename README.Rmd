@@ -1,0 +1,73 @@
+Welcome to notes (in the form of an RStudio project) from the workshop.
+
+This file is `Rmarkdown` and you can open (and run) it in RStudio.
+Although we didn't cover this format in the workshop, you can see it's a nice
+way to combine text and code. (Perfect for reports.)
+
+
+# First steps in R
+
+below is some of the code we went through before creating this project
+
+```r
+# basics
+1 + 100
+2 + 5 * 3
+2 + (5 * 3)
+(2 + 5) * 3
+
+# representing numbers
+1 / 400
+1 / 400000 
+1e7
+2.5e-6
+
+# math funcutions
+sin(3.14)
+exp(1)
+log(exp(1)) #natural log
+log10(10)
+
+
+# programmingy stuff
+
+## variables
+x <- 1 / 5
+x <- 3
+x <- x + 1 #updating a variable
+# a = 2
+
+## comparisons: true or false
+1 == 1
+2 == 1
+1 < 2
+1 > 2 
+1 >= 1
+2 <= 2
+### danger: don't use == for floating point comparisons
+0.99999999999999999999999999999999999999999999 == 1
+all.equal(0.999999, 1)
+
+
+## vectorization
+1:5
+2 * 1:5
+
+
+# the environment
+ls()
+# rm('a') if you want to remove an unwanted variable
+
+
+# the fun part --- using other people's code
+installed.packages() #what do I have installed?
+
+install.packages("Hmisc") # try to install "Hmisc"
+```
+
+# Workshop code
+
+The rest of the code that we walked through in the workshop can be found
+elsewhere in the project:
+
+

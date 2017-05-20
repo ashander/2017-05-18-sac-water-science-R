@@ -68,6 +68,21 @@ install.packages("Hmisc") # try to install "Hmisc"
 # Workshop code
 
 The rest of the code that we walked through in the workshop can be found
-elsewhere in the project:
+elsewhere in the project. (I have given these slightly more informative file
+names compared to those used during the workshop. The numbers reflect the order
+in which we saw this code.)
 
+In these files ...
 
+- `01-getting-help.R` we learned about help and vignettes in R, and how to make
+  reproducible code for help queries online
+- we created the `R project` and downloading gapminder into `data/` (did this
+  in Rstudio and on web)
+- `02-load-and-inspect-data.R` we loaded gapminder `data/` and worked with it
+  in R
+- `03-plotting-gapminder.R` we created many plots with `ggplot2`, and saved
+  some to `plots/`; we also saved some data to `processed-data/`
+- `04-processing-gapminder.R` we manipulated and summarized data with `dplyr`;
+  we also briefly saw `tidyr`'s ability to move data between 'wide' and 'long'
+  formats. (this would've been a better place to learn saving data so I've also
+  copied the code for saving to `processed-data/` here.)
